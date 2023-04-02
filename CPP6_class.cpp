@@ -64,6 +64,7 @@ int main(void) {
     
     graduate1.printGraduate("Kim");
     graduate2.printGraduate("Min");
+    graduate3->printGraduate("Arrow");
     (*graduate3).printGraduate("David");
     // graduate1.averageGrades(); -> private 메서드여서 inaccessible, 컴파일 불가
 
